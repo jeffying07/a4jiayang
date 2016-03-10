@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" /> 
+<link rel="stylesheet" type = "text/css" href="shopingcart.css"/>
+<title>shopping cart</title>
+</head>
+
+<body>
+<div id="body">
+<div>
+	<a href="">Home</a>
+</div>
+
+<div>
+     <table width="1066px">
+           <tr height="70px"><td style="font-size: 20px;font-weight:bold">Shopping Cart</td> </tr>                           
+     </table>
+</div>
+<p></p>
+
+  <div class="navbar-default navbar-inverse navbar-fixed-top" style="background: rgba(225, 225, 225, 1)">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="main.html" style="color:#cc6699; font-family: Arial, Helvetica, sans-serif; font-size:200%;"></span>Easy Food Finder</a>
+    </div>
+    <div class="collapse navbar-collapse" id="example">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-th-large" style="color:#ff0066;"></span>Filter <span class="caret"></span></a>
+        <ul class="dropdown-menu" style="background: rgba(225, 225, 225, .8)">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-globe" style="color:#ff0066;"></span>Distance</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-heart" style="color:#ff0066;"></span>Type</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" style="color:#ff0066;"></span>Shopping Cart</a></li>
+        <li><a href="store_owner.html"><span class="glyphicon glyphicon-home" style="color:#ff0066;"></span>My Shop</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user" style="color:#ff0066;"></span> My Profile</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in" style="color:#ff0066;"></span> Log out</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="ti">
+<table width="1066px" height="40px" border="0"  style="position:relative" align="center"  bgcolor="#FFEBCD" >
+ <tr>
+ <td width="150px"></td>
+ <td width="350px">Food</td>
+ <td width="100px">Price</td>
+ <td width="200px">Quantity</td>
+ <td width="100px">Subtotal</td>
+ <td width="160px">operate</td> 
+ </tr>
+
+ <table width="1066px" border="0"  style="position:relative"  bgcolor="#F0FFF0">
+	<tr>
+    <td width="200px" height="100px" align="left">
+		 <div class="image">
+			<a href=""  align="left"><img src="pancake.jpg" width="125" height="100" alt="" style="background-color: #F0FFF0" /></a>
+		 </div>
+	</td>
+	<td align="center" width="325px">	     
+	    <a href="">pancake</a>		          
+	</td>
+	<td width="150px" align="center">$15</td>
+	<td width="260px" align="center">		
+		<div class="choose-amount fl ">
+     		<div class="wrap-input">
+			     <ul>
+			     <li><a class="btn-reduce" href="javascript:;" style="text-decoration:none">-</a></li>
+			     <li><input class="text" id="buy-num" value="1" ></li>
+			     <li><a class="btn-add" href="javascript:;" style="text-decoration:none" >+</a></li>
+			     </ul>                  
+    		 </div>
+ 		</div>
+  	</td>
+	<td width="60px" align="center">$15</td>
+	<td width="200px" align="center"><a class="btn-delete" href="" style="text-decoration:none">Delete</a></td>
+</tr>
+</table>
+ <table width="1066px" border="0"  style="position:relative"  bgcolor="#F0FFF0">
+	<tr>
+    <td width="200px" height="100px" align="left">
+		 <div class="image">
+			<a href=""  align="left"><img src="strawberry.png" width="125" height="100" alt="" style="background-color: #F0FFF0" /></a>
+		 </div>
+	</td>
+	<td align="center" width="325px">	     
+	    <a href="">strawberry smoothie</a>		          
+	</td>
+	<td width="150px" align="center">$10</td>
+	<td width="260px" align="center">		
+		<div class="choose-amount fl ">
+     		<div class="wrap-input">
+			     <ul>
+			     <li><a class="btn-reduce" href="javascript:;" style="text-decoration:none">-</a></li>
+			     <li><input class="text" id="buy-num" value="2" ></li>
+			     <li><a class="btn-add" href="javascript:;" style="text-decoration:none" >+</a></li>
+			     </ul>                  
+    		 </div>
+ 		</div>
+  	</td>
+	<td width="60px" align="center">$20</td>
+	<td width="200px" align="center"><a class="btn-delete" href="" style="text-decoration:none">Delete</a></td>
+</tr>
+</table>
+
+ </table>
+ </div>
+ <p></p>
+
+
+<table >
+  <tr>
+    <td >Two items</td>
+	</tr>
+	<tr>
+    <td colspan="5" align="right"><a href="#" style="color:#000000 ">Back </a>&nbsp;<a href="#" style="color:#000000 ">Next </a></td>
+  </tr>
+</table>
+<div>
+<form  align="right" ><input type="submit" value="Submit" /></form>
+</div>
+
+</div>
+</body>
+</html>
+
